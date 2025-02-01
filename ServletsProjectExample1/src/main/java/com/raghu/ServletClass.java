@@ -15,6 +15,7 @@ public class ServletClass extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         out.println("<h3><b><i>Hello Coders...</i></b></h3>");
+        out.println("Do good coding...");
 
 
     }
